@@ -46,14 +46,14 @@ venv\Scripts\activate         # Windows
 3.Install dependencies:
 pip install -r requirements.txt
 
-4.Usage
+## Usage
 Run the main program:
 python main.py
 
 The system will access your webcam and start monitoring for distraction.
 Watch for on-screen alerts when distraction or eye closure is detected.
 
-Project Structure
+## Project Structure
 
 distraction-detector/
 │
@@ -65,14 +65,14 @@ distraction-detector/
 ├── requirements.txt     # Python dependencies
 └── README.md
 
-Technologies
+## Technologies
 Python 3.8+
 OpenCV (Computer Vision)
 MediaPipe (Face and Eye Tracking)
 NumPy
 Optional: PyQt or Tkinter for GUI enhancements
 
-Future Improvements
+## Future Improvements
 Add fatigue detection based on long-term blink patterns.
 Integrate distraction scoring with analytics dashboards.
 Enable logging and report generation for productivity tracking.
